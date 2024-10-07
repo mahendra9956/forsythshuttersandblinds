@@ -1,0 +1,1308 @@
+section {
+    margin-top: 10px;
+
+}
+
+.glass-box h1 {
+    font-weight: 500;
+    font-family: Roboto;
+    color: gold;
+    font-size: 22px;
+}
+
+.glass-box h2 {
+    opacity: 1;
+    font-size: 22px;
+    color: gold;
+}
+
+.glass-box p {
+    color: gold;
+    font-size: 14px;
+}
+
+.glass-box {
+    position: relative;
+    margin-top: 200px;
+    padding: 50px 50px 40px 50px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 30px 30px 200px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    opacity: 0.8;
+    margin-left: 350px;
+
+}
+
+mat-card {
+    margin-top: 40px;
+    background-color: rgb(246, 247, 250);
+    width: 80%;
+    margin-left: 150px;
+    height: 500px;
+    padding-top: 100px;
+
+}
+
+mat-card h2 {
+    text-align: center;
+    opacity: 1;
+    font-size: 22px;
+}
+
+mat-card p {
+    text-align: center;
+    font-size: 14px;
+}
+
+mat-card .full-width {
+    width: 95%;
+    margin-left: 20px;
+}
+
+mat-card td {
+    padding-right: 8px;
+
+}
+
+mat-card button {
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.everwood-kitchen {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.kitchen-image {
+    margin-left: 150px;
+}
+
+.kitchen-content {
+    margin-right: 10px;
+}
+
+.kitchen-content h1 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+    opacity: 0.6;
+}
+
+.kitchen-content p {
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.financing-card {
+    background-color: rgb(246, 247, 250);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+.financing-card h1 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.financing-card h4 {
+    font-size: 20px;
+    font-family: Roboto;
+    opacity: 0.6;
+
+}
+
+.financing-card p {
+    font-size: 14px;
+}
+
+.financing-card button {
+    margin-right: 50px;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.dining-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.dining-content {
+    width: 90%;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+
+.dining-content h1 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+    opacity: 0.6;
+}
+
+.dining-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.operating-card {
+    margin-top: 40px;
+    background-color: rgb(246, 247, 250);
+    padding: 50px;
+
+}
+
+.operating-card h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+.operating-col-1 {
+    display: flex;
+    padding-top: 50px;
+
+    width: 91%;
+}
+
+.operating-row-1 {
+    margin-left: 80px;
+    display: flex;
+}
+
+.operating-row-1 h2 {
+    margin-left: 20px;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.operating-row-1 p {
+    width: 350px;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.operating-row-2 {
+    display: flex;
+    margin-left: 150px;
+}
+
+.operating-row-2 h2 {
+    margin-left: 20px;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.operating-row-2 p {
+    width: 350px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.operating-single-img {
+    display: flex;
+    margin-left: 21rem;
+    margin-top: 60px;
+
+}
+
+.operating-single-img h2 {
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.operating-single-img h2,
+p {
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.operating-single-img p {
+    font-size: 14px;
+}
+
+.page-center {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.wood-blinds-custom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.coustom-content {
+    margin-right: 50px;
+}
+
+.coustom-content h1 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+    opacity: 0.6;
+    margin-left: 18px;
+}
+
+.coustom-content h2 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Roboto;
+    opacity: 0.6;
+    margin-left: 18px;
+}
+
+.coustom-content li,
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.custom-img {
+    margin-left: 80px;
+}
+
+.kitchen-image-shodow {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 80px;
+
+}
+
+.shodow-box {
+    padding: 260px;
+    border: 1px solid rgb(246, 247, 250);
+    background-color: rgb(246, 247, 250);
+    box-shadow: -40px 0px 30px 5px rgb(246, 247, 250);
+}
+
+.shodow-box button {
+    padding: 9px 20px 9px 20px;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
+
+.gallery-image {
+    margin-top: 40px;
+    background-color: rgb(246, 247, 250);
+}
+
+.gallery-image h2 {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.mySlides {
+    display: none;
+}
+
+.active-slide {
+    display: block;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 30%;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+}
+
+.demo {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.demo:hover {
+    opacity: 1;
+}
+
+.container-form {
+    background-color: #fff;
+
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 650px;
+    margin-top: 40px;
+
+}
+
+.container-form h1 {
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    display: flex;
+
+}
+
+.left-container {
+    flex: 1;
+    background-color: rgb(104, 202, 241);
+    margin-left: 80px;
+
+}
+
+.right-container {
+    display: flex;
+    flex: 1;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.left-container p {
+    font-size: 14px;
+}
+
+.right-inner-container {
+    width: 80%;
+
+    text-align: center;
+}
+
+.right-inner-container #myfile {
+    width: 220px;
+    background-color: #fff;
+    margin-right: 250px;
+
+}
+
+.lg-view {
+    font-size: 22px;
+}
+
+.left-inner-container {
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+}
+
+.left-inner-container h2 {
+    font-size: 22px;
+    opacity: 1;
+}
+
+.left-inner-container p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.left-inner-container span {
+    font-size: 14px;
+}
+
+.right-inner-container input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.right-inner-container input:focus,
+textarea:focus {
+    outline: 1px solid skyblue;
+}
+
+
+.btn-form {
+
+    padding-top: 30px;
+    margin-left: 57rem;
+}
+
+.btn-form button {
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+  .carousel-item img{
+    width: 700px;
+    height: 500px;
+  }
+
+    .glass-box {
+        margin-top: 50px;
+        width: 280px;
+        height: 380px;
+        margin-left: 50px;
+
+    }
+
+    mat-card {
+        margin-top: 20px;
+        width: 70%;
+        margin-left: 50px;
+        height: 400px;
+        padding-top: 30px;
+
+    }
+
+    mat-card h2 {
+        text-align: center;
+        opacity: 1;
+        font-size: 16px;
+    }
+
+    mat-card p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    mat-card .full-width {
+        width: 100px;
+        margin-left: 10px;
+
+    }
+
+    mat-card mat-label {
+        font-size: 11px;
+    }
+
+    mat-card button {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 12px;
+        width: 100px;
+    }
+
+    .everwood-kitchen {
+        margin-top: 20px;
+    }
+
+    .kitchen-image img {
+        position: relative;
+        width: 320px;
+        margin-left: -120px;
+    }
+
+    .kitchen-content {
+
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 250px;
+        padding-right: 20px;
+    }
+
+    .kitchen-content h1 {
+        font-size: 16px;
+    }
+
+    .kitchen-content p {
+        font-size: 12px;
+
+
+    }
+
+    .financing-card {
+        margin-top: 450px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .financing-card h1 {
+        font-size: 16px;
+    }
+
+    .financing-card h4 {
+        font-size: 16px;
+    }
+
+    .financing-card p {
+        font-size: 12px;
+    }
+
+    .financing-card button {
+
+        font-size: 12px;
+
+    }
+
+    .dining-page {
+        margin-top: 20px;
+    }
+
+    .dining-content {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 250px;
+        padding-right: 20px;
+    }
+
+    .dining-image img {
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .dining-content h1 {
+        font-size: 16px;
+    }
+
+    .dining-content p {
+        font-size: 14px;
+
+    }
+
+    .operating-card {
+        margin-top: 470px;
+        padding: 20px;
+    }
+
+    .operating-card h1 {
+        font-size: 16px;
+    }
+
+    .operating-col-1 {
+        padding-top: 10px;
+        width: 50%;
+    }
+
+    .operating-row-1 {
+        margin-left: 20px;
+        position: absolute;
+        width: 250px;
+    }
+
+    .operating-row-1 h2 {
+        margin-left: 20px;
+        font-size: 16px;
+        width: 170px;
+    }
+
+    .operating-row-1 p {
+        width: 170px;
+        margin-left: 20px;
+        font-size: 12px;
+
+
+    }
+
+    .operating-row-2 {
+        position: relative;
+        margin-left: 20px;
+        width: 250px;
+        margin-top: 270px;
+    }
+
+    .operating-row-2 h2 {
+        margin-left: 20px;
+        font-size: 16px;
+        width: 170px;
+    }
+
+    .operating-row-2 p {
+        width: 170px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .operating-single-img {
+        margin-top: 20px;
+        display: flex;
+        margin-left: 20px;
+
+
+    }
+
+    .operating-single-img h2 {
+        font-size: 16px;
+
+    }
+
+    .operating-single-img h2,
+    p {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .operating-single-img p {
+        font-size: 12px;
+    }
+
+    .page-center {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .wood-blinds-custom {
+
+        margin-top: 20px;
+    }
+
+    .custom-img img {
+        position: absolute;
+        width: 300px;
+        height: 250px;
+
+
+    }
+
+    .coustom-content {
+
+        position: relative;
+        margin-top: 270px;
+    }
+
+    .coustom-content h1 {
+        font-size: 16px;
+    }
+
+    .coustom-content h2 {
+        font-size: 16px;
+    }
+
+    .coustom-content li,
+    p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .custom-img {
+        margin-left: 40px;
+    }
+
+    .kitchen-image-shodow {
+        margin-top: 20px;
+        margin-left: 60px;
+
+
+    }
+
+    .kitchen-image-shodow img {
+        position: absolute;
+        width: 290px;
+    }
+
+    .shodow-box {
+        position: relative;
+        padding: 0px;
+        margin-top: 60px;
+        margin-left: 50px;
+
+    }
+
+    .shodow-box button {
+        font-size: 14px;
+        border-radius: 0px;
+    }
+
+    .gallery-image {
+        margin-top: 130px;
+    }
+
+    .gallery-image h2 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .mySlides img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .prev,
+    .next {
+
+        margin-right: 20px;
+        margin-left: 10px;
+
+    }
+
+    .caption-container {
+        font-size: 12px;
+    }
+
+
+    .container-form h1 {
+
+        padding-top: 20px;
+
+        font-size: 16px;
+
+    }
+
+    .left-container {
+        position: absolute;
+        margin-left: 20px;
+        width: 340px;
+
+    }
+
+    .right-container {
+        position: relative;
+        margin-top: 220px;
+        margin-left: 20px;
+        width: 340px;
+
+    }
+
+
+    .left-container p {
+        font-size: 14px;
+    }
+
+
+    .lg-view {
+        font-size: 16px;
+    }
+
+
+    .left-inner-container h2 {
+        padding-top: 10px;
+        font-size: 16px;
+        padding-bottom: 10px;
+
+    }
+
+    .left-inner-container p {
+        font-size: 12px;
+
+    }
+
+    .left-inner-container span {
+        font-size: 13px;
+    }
+
+    .right-inner-container input,
+    textarea {
+
+        font-size: 12px;
+
+    }
+
+
+
+    .btn-form {
+        padding: 10px;
+        margin-left: 60px;
+    }
+
+    .btn-form button {
+
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  
+    .glass-box {
+        margin-top: 200px;
+        width: 480px;
+        height: 300px;
+        margin-left: 150px;
+
+    }
+
+    mat-card {
+        margin-top: 30px;
+        width: 85%;
+        margin-left: 60px;
+        height: 400px;
+        padding-top: 30px;
+
+    }
+
+
+    mat-card button {
+        margin-top: 20px;
+        margin-left: 220px;
+        font-size: 14px;
+
+    }
+
+    .everwood-kitchen {
+        margin-top: 30px;
+    }
+
+    .kitchen-image img {
+        position: relative;
+        width: 640px;
+        margin-left: -150px;
+    }
+
+
+    .kitchen-content {
+
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 500px;
+        padding-right: 20px;
+    }
+
+    .kitchen-content h1 {
+        font-size: 22px;
+        margin-left: 40px;
+    }
+
+    .kitchen-content p {
+        font-size: 14px;
+        margin-left: 40px;
+
+    }
+
+    .financing-card {
+        margin-top: 320px;
+
+    }
+
+    .financing-card button {
+        margin-top: 20px;
+        font-size: 14px;
+
+    }
+
+    .dining-page {
+        margin-top: 30px;
+    }
+
+    .dining-content {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 500px;
+        padding-right: 20px;
+    }
+
+    .dining-image img {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .operating-card {
+        margin-top: 300px;
+    }
+
+    .operating-row-1 {
+        margin-left: 20px;
+        position: absolute;
+
+    }
+
+    .operating-row-1 h2 {
+        margin-left: 20px;
+    }
+
+    .operating-row-1 p {
+        margin-left: 20px;
+    }
+
+    .operating-row-2 {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .operating-row-2 h2 {
+        margin-left: 20px;
+    }
+
+    .operating-row-2 p {
+        margin-left: 20px;
+    }
+
+    .operating-single-img {
+        margin-top: 30px;
+
+        margin-left: 20px;
+
+
+    }
+
+    .operating-single-img h2,
+    p {
+        margin-left: 20px;
+
+    }
+
+    .page-center {
+
+        padding-top: 20px;
+
+    }
+
+    .wood-blinds-custom {
+
+        margin-top: 30px;
+    }
+
+    .custom-img img {
+        position: absolute;
+    }
+
+    .coustom-content {
+
+        position: relative;
+        margin-top: 920px;
+    }
+
+    .custom-img {
+        margin-left: 40px;
+    }
+
+    .kitchen-image-shodow {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .kitchen-image-shodow img {
+        position: absolute;
+        width: 85%;
+    }
+
+    .shodow-box {
+        position: relative;
+        padding: 0px;
+        margin-top: 200px;
+        margin-left: 250px;
+
+    }
+
+    .shodow-box button {
+        font-size: 16px;
+        border-radius: 0px;
+    }
+
+    .gallery-image {
+        margin-top: 230px;
+    }
+
+    .mySlides img {
+        width: 700px;
+        height: 400px;
+    }
+
+    .container-form h1 {
+        padding-top: 30px;
+    }
+
+    .left-container {
+        position: absolute;
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .right-container {
+        position: relative;
+        margin-top: 220px;
+        margin-left: 20px;
+        width: 95%;
+
+    }
+
+    .left-inner-container h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .btn-form {
+        padding: 10px;
+        margin-left: 90px;
+    }
+
+}
+
+
+@media screen and (min-width:993px) and (max-width:1199px) {
+
+    .glass-box {
+        margin-top: 200px;
+        width: 700px;
+        height: 300px;
+        margin-left: 150px;
+    }
+
+    mat-card {
+        width: 90%;
+        margin-left: 60px;
+        height: 400px;
+        padding-top: 30px;
+
+    }
+    mat-card button {
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+
+    .everwood-kitchen {
+        margin-top: 30px;
+    }
+
+    .kitchen-image img {
+        position: relative;
+  
+    }
+
+
+    .kitchen-content {
+
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 600px;
+        padding-right: 20px;
+    }
+
+    .kitchen-content h1 {
+        margin-left: 40px;
+    }
+
+    .kitchen-content p {
+        margin-left: 40px;
+
+    }
+
+    .financing-card {
+        margin-top: 320px;
+
+    }
+
+    .financing-card button {
+        margin-top: 20px;
+    
+
+    }
+
+    .dining-page {
+        margin-top: 30px;
+    }
+
+    .dining-content {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 680px;
+        padding-right: 20px;
+    }
+
+    .dining-image img {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .operating-card {
+        margin-top: 300px;
+    }
+
+    .operating-row-1 {
+        margin-left: 20px;
+        position: absolute;
+
+    }
+
+    .operating-row-1 h2 {
+        margin-left: 50px;
+    }
+
+    .operating-row-1 p {
+        margin-left: 50px;
+    }
+
+    .operating-row-2 {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .operating-row-2 h2 {
+        margin-left: 50px;
+    }
+
+    .operating-row-2 p {
+        margin-left: 50px;
+    }
+
+    .operating-single-img {
+        margin-top: 30px;
+
+        margin-left: 20px;
+
+
+    }
+
+    .operating-single-img h2,
+    p {
+   
+        margin-left: 50px;
+
+    }
+
+    .page-center {
+
+        padding-top: 20px;
+
+    }
+
+    .wood-blinds-custom {
+
+        margin-top: 30px;
+    }
+
+    .custom-img img {
+        position: absolute;
+    }
+
+    .coustom-content {
+
+        position: relative;
+        margin-top: 1220px;
+    }
+
+    .custom-img {
+        margin-left: 40px;
+    }
+
+    .kitchen-image-shodow {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .kitchen-image-shodow img {
+        position: absolute;
+        width: 85%;
+    }
+
+    .shodow-box {
+        position: relative;
+        padding: 0px;
+        margin-top: 200px;
+        margin-left: 250px;
+
+    }
+
+    .shodow-box button {
+        font-size: 16px;
+        border-radius: 0px;
+    }
+
+    .gallery-image {
+        margin-top: 420px;
+    }
+
+    .mySlides img {
+        width: 930px;
+        height: 500px;
+    }
+
+
+    .left-container {
+        position: absolute;
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .right-container {
+        position: relative;
+        margin-top: 220px;
+        margin-left: 20px;
+        width: 95%;
+
+    }
+
+    .left-inner-container h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .btn-form {
+        padding: 10px;
+        margin-left: 90px;
+    }
+
+}

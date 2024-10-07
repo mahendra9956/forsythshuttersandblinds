@@ -1,0 +1,315 @@
+<div>
+
+<section id="banner" class="carousel slide" data-bs-ride="carousel">
+  
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#banner"[attr.data-bs-slide-to] ="i" class="active"
+      *ngFor="let imge of carousel let i=index" [ngClass]="i===0 ? 'active' : '' "></button>
+    </div>
+  
+  
+    <div class="carousel-inner">
+      <div class="carousel-item " *ngFor="let imge of carousel let i=index" [ngClass]="i===0 ? 'active' : '' ">
+        <img src="../assets/slide-image/{{imge.img}}" alt="imge.alt" class="d-block w-100" width="100%" height="800px">
+      </div>
+   
+      <div class="glass-box">
+        <h1>Love Your Faux Wood Blinds </h1>
+        <h2>Now - Pay Over Time</h2>
+        <p>Flexible Financing for Made-To-Order Blinds</p>
+        <p> Special 6 or 12-Month Financing Options Available With No Interest if Paid in Full <br>
+            During That Time**</p>
+    </div>
+    </div>
+    
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </section>
+
+    <mat-card>
+        <h2>
+            Schedule a FREE, No-Obligation In-Home Design Consultation
+        </h2>
+        <p>Call 888-428-1415, Chat Live or Submit Below</p>
+        <form>
+
+            <table class="full-width" cellspacing="0">
+                <tr>
+                    <td><mat-form-field class="full-width">
+                            <mat-label>Full Name</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                    <td><mat-form-field class="full-width">
+                            <mat-label>Phone Number</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                </tr>
+            </table>
+            <table class="full-width" cellspacing="0">
+                <tr>
+                    <td><mat-form-field class="full-width">
+                            <mat-label>Email</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                    <td><mat-form-field class="full-width">
+                            <mat-label>Zip</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                </tr>
+            </table>
+            <button mat-raised-button>Request Consultation</button>
+        </form>
+    </mat-card>
+
+
+    <div class="everwood-kitchen">
+        <div class="kitchen-image">
+            <img src="./assets/img/Everwood-Alternative-Wood-Blinds-faux-wood-kitchen-2-1366x1024.jpg" alt=""
+                width="90%">
+        </div>
+        <div class="kitchen-content">
+            <h1>
+                Alternative Wood Blinds Offer Beauty That Stands Up to Humidity</h1>
+            <p>The classic look of plantation blinds looks great in any home. But most wood blinds can be easily damaged
+                when placed in rooms with increased moisture and humidity. That’s where Hunter Douglas EverWood® Blinds
+                from Louver Shop come in.</p>
+            <p>These horizontal blinds are a smart alternative to hardwood blinds, blending traditional style with the
+                convenience of modern materials that resist warping or damage from humid conditions.</p>
+            <p>Available in either realistic TruGrain® wood finishes or Renditions™ solid colors, EverWood® Blinds are
+                an attractive, durable addition to any room for years to come.</p>
+            <p>Your Louver Shop consultant can help you find the right EverWood® style to complement your home. Whether
+                your style is traditional, contemporary, or somewhere in between, we can help.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="financing-card">
+        <h1>Love Your Blinds Now - Pay Over Time</h1>
+        <h4>Flexible Financing For Made-To-Order Blinds</h4>
+        <p>Special 6 or 12-Month Financing Options Available With</p>
+        <p>No Interest if Paid in Full During That Time**</p>
+        <button>View Financing</button>
+    </div>
+
+
+    <div class="dining-page">
+
+        <div class="dining-content">
+            <h1>The Look of Wood Blinds, the Durability of Modern Materials</h1>
+            <p>EverWood® blinds are made from a proprietary, PVC-free polymer that is easy to clean. This material also
+                resists damage from extreme heat, humidity, moisture, and direct sunlight. That makes them perfect for
+                kitchens, bathrooms, and laundry rooms, spaces that might otherwise present problems for traditional
+                wood blinds.</p>
+            <p>EverWood’s de-Light™ system improves privacy and light control by hiding cord holes. That means these
+                blinds can block more than 75 percent of the sun’s damaging UV rays when closed. And reduces the chance
+                of the sun fading your home’s furniture, artwork, or flooring. You might even see savings on your energy
+                bill.</p>
+        </div>
+        <div class="dining-image">
+            <img src="./assets/img/Everwood-Blinds-in-a-dining-room-1366x928.webp" alt="" width="90%">
+        </div>
+    </div>
+
+    <div class="operating-card">
+        <h1>EverWood Blinds Are Available in Five Different Operating Systems</h1>
+        <div class="operating-col-1">
+
+            <div class="operating-row-1">
+                <img src="./assets/opterining/PowerView.jpeg" alt="" width="50%">
+                <div>
+                    <h2>PowerView®</h2>
+                    <p>Our brilliant Wi-Fi operating system provides you the power to regulate and schedule your Hunter
+                        Douglas window treatments by way of remote management or your phone and creates a safer
+                        environment
+                        for homes with young children and pets.</p>
+                </div>
+            </div>
+            <div class="operating-row-2">
+                <img src="./assets/opterining/LiteRise.jpeg" alt="" width="50%">
+                <div>
+                    <h2>
+                        LiteRise®</h2>
+                    <p>A cordless system that permits you to
+                        merely push up together with your hand to raise and pull
+                        right
+                        down to lower.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="operating-col-1">
+
+            <div class="operating-row-1">
+                <img src="./assets/opterining/UltraGlide.jpeg" alt="" width="50%">
+                <div>
+                    <h2>UltraGlide®</h2>
+                    <p>Includes a single retractable wire or wand depending on your window treatment selection. The cord
+                        and wand always stay a relentless length when elevating and lowering your window treatments.
+                        With no long, dangling cords the system gives enhanced child and pet safety..</p>
+                </div>
+            </div>
+            <div class="operating-row-2">
+                <img src="./assets/opterining/SimpleLift.jpeg" alt="" width="50%">
+                <div>
+                    <h2>
+
+                        SimpleLift</h2>
+                    <p>Offers enhances safety for children and pets. The contoured bottom rail makes raising and
+                        lowering simple, with no handle required.er.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="operating-single-img">
+            <img src="./assets/opterining/standard-cordlock.jpeg" alt="" width="50%">
+            <div>
+                <h2>
+                    Standard Cordlock</h2>
+                <p>Standard Cordlock
+                    It acts like a cord, but locks into place for easier operation and a cleaner appearance. Cord cleats
+                    are included.</p>
+            </div>
+        </div>
+
+        <p class="page-center">Limitations and restrictions may apply. Our design consultant will review details about
+            operating systems available for our Applause® shades.</p>
+
+    </div>
+
+    <div class="wood-blinds-custom">
+        <div class="custom-img">
+            <img src="./assets/opterining/Everwood-Alternative-Wood-Blinds-standard-cordlock-faux-wood-hardware-detail-3.jpg"
+                alt="" width="90%">
+
+        </div>
+        <div class="coustom-content">
+            <h1>Faux Wood Blinds Custom-Made Just For You</h1>
+            <ul>
+                <li>Orientation: Horizontal</li>
+            </ul>
+            <ul>
+                <li>
+                    Material: Polymer
+                </li>
+            </ul>
+            <ul>
+                <li>Slat Sizes: 2″ or 2 1/2″</li>
+            </ul>
+            <ul>
+                <li>Width: 7 3/4″ to 96″</li>
+            </ul>
+            <ul>
+                <li>Height: 12″ to 120″</li>
+            </ul>
+            <ul>
+                <li>Specialty Shapes: Arches, angles, hexagons, octagons, circles, ovals, bay and corner windows, French
+                    doors and cutouts</li>
+            </ul>
+            <p>EverWood blinds can be produced in a variety of customizable configurations, including colors and window
+                shapes. Schedule a free, in-home design consultation with one of our professionals today to find out
+                more.</p>
+            <h2>Hunter Douglas Lifetime Limited Warranty</h2>
+            <p>The Hunter Douglas Lifetime Guarantee is an expression of our desire to provide a thoroughly satisfying
+                experience when selecting, purchasing and living with your window fashion products. To learn more..</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="kitchen-image-shodow">
+            <img src="./assets/opterining/unnamed (1).jpg" alt="">
+            <div class="shodow-box">
+                <button>Get a Free Estimate</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="gallery-image">
+
+
+        <h2>Get Inspired With Our Everwood Photo Gallery</h2>
+
+        <div class="container mat-elevation-z8">
+            <div *ngFor="let slide of slides; let i = index" class="mySlides"
+                [ngClass]="{'active-slide': currentSlideIndex === i}">
+                <img [src]="slide.image" width="1120px" height="600px">
+                <div class="numbertext">{{i + 1}} / {{slides.length}}</div>
+            </div>
+
+            <button mat-icon-button class="prev" (click)="changeSlide(-1)">
+                <mat-icon>chevron_left</mat-icon>
+            </button>
+            <button mat-icon-button class="next" (click)="changeSlide(1)">
+                <mat-icon>chevron_right</mat-icon>
+            </button>
+
+            <div class="caption-container">
+                <p>{{slides[currentSlideIndex]?.caption}}</p>
+            </div>
+
+            <div class="row">
+                <div class="column" *ngFor="let slide of slides; let i = index">
+                    <img [src]="slide.thumbnail" class="demo cursor" (click)="goToSlide(i)" alt="{{slide.caption}}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-form">
+        <h1>Contact Louver Shop Shutters of Macon</h1>
+        <div class="form-container">
+
+            <div class="left-container">
+
+                <div class="left-inner-container">
+                    <h2>Let's Chat</h2>
+                    <p>We think the ideal customer service is local service . Our consultants live where you do, making
+                        us more responsive and sharper about things that matter to you.
+                        It’s simple to get in touch with Louver Shop. You can reach us 24/7 via 888-428-1415 or live
+                        chat.</p>
+
+                    <span>Warranty and Care Information</span>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="right-inner-container">
+                    <form action="#">
+                        <h2 class="lg-view">Contact Us</h2>
+                        <h4> About Our Shutters, Blinds or Shades?</h4>
+                        <p>Call 888-428-1415 or Submit Below</p>
+                        <input type="text" placeholder="Name *" />
+                        <input type="email" placeholder="Email *" />
+                        <input type="text" placeholder="Company" />
+                        <input type="phone" placeholder="Phone" />
+                        <textarea rows="4" placeholder="Message"></textarea>
+                    
+                        <input type="file" id="myfile" name="myfile">
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="btn-form">
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+
+
+</div>
