@@ -509,16 +509,35 @@ textarea:focus {
 
 @media screen and (min-width:320px) and (max-width:767px) {
 
-  .carousel-item img{
-    width: 700px;
-    height: 500px;
-  }
+    .carousel-item img {
+        width: 700px;
+        height: 500px;
+    }
+
+
+
+    .glass-box h1 {
+
+        font-size: 16px;
+    }
+
+    .glass-box h2 {
+
+        font-size: 16px;
+
+    }
+
+    .glass-box p {
+
+        font-size: 12px;
+    }
+
 
     .glass-box {
         margin-top: 50px;
         width: 280px;
         height: 380px;
-        margin-left: 50px;
+        margin-left: 80px;
 
     }
 
@@ -882,7 +901,7 @@ textarea:focus {
 
 
 @media screen and (min-width:768px) and (max-width:992px) {
-  
+
     .glass-box {
         margin-top: 200px;
         width: 480px;
@@ -1116,6 +1135,7 @@ textarea:focus {
         padding-top: 30px;
 
     }
+
     mat-card button {
         margin-top: 20px;
         margin-left: 350px;
@@ -1127,7 +1147,7 @@ textarea:focus {
 
     .kitchen-image img {
         position: relative;
-  
+
     }
 
 
@@ -1155,7 +1175,7 @@ textarea:focus {
 
     .financing-card button {
         margin-top: 20px;
-    
+
 
     }
 
@@ -1217,7 +1237,7 @@ textarea:focus {
 
     .operating-single-img h2,
     p {
-   
+
         margin-left: 50px;
 
     }
